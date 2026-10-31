@@ -30,6 +30,13 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText();
     }
 
+    // Replaces the score, for example with a loaded value, and updates the text
+    public void SetScore(int value)
+    {
+        Score = value;
+        UpdateScoreText();
+    }
+
     // Called by the subject whenever a target is hit
     private void HandleTargetHit(int points)
     {
