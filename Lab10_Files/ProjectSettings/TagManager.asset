@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Curtains
+  - Player
+  - Targets
+  - Shelves
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3903706769
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Targets
+    uniqueID: 591873125
+    locked: 0
+  - name: Shelves
+    uniqueID: 3870348451
+    locked: 0
+  - name: Curtains
+    uniqueID: 1476720911
+    locked: 0
+  - name: Player
+    uniqueID: 2628738323
+    locked: 0
+  m_RenderingLayers:
+  - Default
