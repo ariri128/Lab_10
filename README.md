@@ -4,7 +4,7 @@
 Press **S** to save and **L** to load. Saving stores the score, the rifle's location and the location of every duck on screen. Loading puts them all back. Bullets are not saved.
 
 **<ins>How it was Implemented<ins>** <br>
-**ISaveable** is an interface with a 'SaveID', a 'SavedData' property that returns the object's data as JSON, and a 'LoadFromData' method that restores it. **SaveableBehavior** is a base class that implements it and gives each object its own GUID as its SaveID.<br>
+**ISaveable** is an interface with a `SaveID`, a 'SavedData' property that returns the object's data as JSON, and a 'LoadFromData' method that restores it. **SaveableBehavior** is a base class that implements it and gives each object its own GUID as its SaveID.<br>
 
 **TransformSaver** extends 'SaveableBehavior' and saves an object's position, rotation, and scale. It's attached to the rifles object in the hierarchy. the duck spawner also uses it to save and restore each duck's location.<br>
 
